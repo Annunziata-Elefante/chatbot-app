@@ -1,8 +1,10 @@
-''' 
+
 import streamlit as st
 from langchain.llms import OpenAI
 
 st.title('🦜🔗 Quickstart App')
+st.write("🦋Hi, I'm Nunzia!")
+st.info("Chatbot - Test Project", icon="💻")
 
 openai_api_key = st.sidebar.text_input('Secret key')
 
@@ -11,14 +13,16 @@ def generate_response(input_text):
   st.info(llm(input_text))
 
 with st.form('my_form'):
-  text = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
+  text = st.text_area('Enter text:', 'What is your question?')
   submitted = st.form_submit_button('Submit')
   if not openai_api_key.startswith('sk-'):
     st.warning('Please enter your OpenAI API key!', icon='⚠')
   if submitted and openai_api_key.startswith('sk-'):
     generate_response(text)
-    '''
 
+
+
+'''
 import streamlit as st
 from llama_index import VectorStoreIndex, ServiceContext, Document
 from llama_index.llms import OpenAI
@@ -64,3 +68,4 @@ if st.session_state.messages[-1]["role"] != "assistant":
             st.write(response.response)
             message = {"role": "assistant", "content": response.response}
             st.session_state.messages.append(message) # Add response to message history
+''' 
