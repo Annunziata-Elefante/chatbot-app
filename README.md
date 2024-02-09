@@ -7,8 +7,9 @@ Description of the app ...
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://app-starter-kit.streamlit.app/](https://chatbot-app-dt9jedahsv9u4swxrebfzu.streamlit.app/))
 
+<!--
 ## GitHub Codespaces
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)]([https://codespaces.new/streamlit/app-starter-kit?quickstart=1](https://chatbot-app-dt9jedahsv9u4swxrebfzu.streamlit.app/))
@@ -23,3 +24,4 @@ This is filler text, please replace this with a explanatory text about further r
 - Resource 1
 - Resource 2
 - Resource 3
+-->
