@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_option_menu import option_menu
 
 
 st.title("🦋Hi, I'm Nunzia!")
@@ -13,7 +14,7 @@ with col1:
 with st.sidebar:
     st.write("☰ MENU")
     st.page_link("streamlit_app.py", label="Home", icon="🏡")
-    st.page_link("pages/🤖EchoBot.py", label="Echo Chat", icon="🤖")
+    st.page_link("pages/echoBot.py", label="Echo Chat", icon="🤖")
 
 # draw celebratory balloons.
 st.balloons()
