@@ -4,6 +4,8 @@ import streamlit as st
 st.title("🦋Hi, I'm Nunzia!")
 # st.write("")
 st.info("Data Science & Machine Learning || University of Fisciano, Italy || Web Developer Freelancer", icon="💻")
+st.image('iamges/memoji.webp', caption='Sunrise by the mountains')
+
 
 # Controls whether the default sidebar page navigation in a multipage app is
 # displayed.
