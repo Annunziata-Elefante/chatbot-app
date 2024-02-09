@@ -1,3 +1,4 @@
+// MAIN: // streamlit_app.py
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.209.6/containers/python-3
 {
@@ -6,7 +7,7 @@
         "codespaces": {
           "openFiles": [
             "README.md",
-            "streamlit_app.py"
+            "🏡Home.py"
           ]
         },
         "vscode": {
