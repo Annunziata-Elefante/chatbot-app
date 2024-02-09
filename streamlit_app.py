@@ -10,12 +10,10 @@ with col1:
     st.image('images/memoji.webp', caption='Nunzia')
 
 # Sidebar for MENU
-'''
 with st.sidebar:
     st.write("☰ MENU")
     st.page_link("streamlit_app.py", label="Home", icon="🏡")
-    st.page_link("pages/echoBot.py", label="Echo Chat", icon="🤖")
-''''
+    st.page_link("pages/🤖EchoBot.py", label="Echo Chat", icon="🤖")
 
 # draw celebratory balloons.
 st.balloons()
