@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("🤖🔊 Echo Bot")
-st.info("This chatbot that echoes your input.", icon="🔍")
+st.info("This chatbot echoes your input.", icon="🔍")
 
 # Initialize chat history
 if "messages" not in st.session_state:
