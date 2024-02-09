@@ -5,6 +5,7 @@ st.info("This chatbot echoes your input.", icon="🔍")
 
 # Sidebar with MENU
 with st.sidebar:
+  st.write("☰ MENU")
   st.page_link("streamlit_app.py", label="Home", icon="🏡")
   st.page_link("pages/echoBot.py", label="Echo Chat", icon="🤖")
 
