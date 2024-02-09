@@ -6,7 +6,7 @@ st.title("🦋Hi, I'm Nunzia!")
 st.info("Data Science & Machine Learning || University of Fisciano, Italy || Web Developer Freelancer", icon="💻")
 
 with col1:
-    st.image('iamges/memoji.webp', caption='Sunrise by the mountains')
+    st.image('images/memoji.webp', caption='Sunrise by the mountains')
 
 # Controls whether the default sidebar page navigation in a multipage app is displayed.
 # Default: true
