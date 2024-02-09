@@ -1,13 +1,38 @@
-
 import streamlit as st
-from langchain.llms import OpenAI
+# from langchain.llms import OpenAI
 
+# st.title("Echo Bot")
 st.title('🦜🔗 Quickstart App')
 st.write("🦋Hi, I'm Nunzia!")
 st.info("Chatbot - Test Project", icon="💻")
 
-openai_api_key = st.sidebar.text_input('Secret key')
+# openai_api_key = st.sidebar.text_input('Secret key')
+siderbar_text = st.sidebar.text('Hi')
 
+# Initialize chat history
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+
+# Display chat messages from history on app rerun
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+# React to user input
+if prompt := st.chat_input("What is up?"):
+    # Display user message in chat message container
+    st.chat_message("user").markdown(prompt)
+    # Add user message to chat history
+    st.session_state.messages.append({"role": "user", "content": prompt})
+
+    response = f"Echo: {prompt}"
+    # Display assistant response in chat message container
+    with st.chat_message("assistant"):
+        st.markdown(response)
+    # Add assistant response to chat history
+    st.session_state.messages.append({"role": "assistant", "content": response})
+
+'''
 def generate_response(input_text):
   llm = OpenAI(temperature=0.7, openai_api_key=openai_api_key)
   st.info(llm(input_text))
@@ -19,7 +44,7 @@ with st.form('my_form'):
     st.warning('Please enter your OpenAI API key!', icon='⚠')
   if submitted and openai_api_key.startswith('sk-'):
     generate_response(text)
-
+'''
 
 
 '''
