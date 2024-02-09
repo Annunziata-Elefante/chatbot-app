@@ -7,5 +7,5 @@ st.title("🦋Hi, I'm Nunzia!")
 st.info("Application Test", icon="💻")
 
 # siderbar_text =
-st.page_link("pages/streamlit_app.py", label="Home", icon="🏡")
+st.page_link("streamlit_app.py", label="Home", icon="🏡")
 st.page_link("pages/echoBot.py", label="Echo Chat", icon="🤖")
