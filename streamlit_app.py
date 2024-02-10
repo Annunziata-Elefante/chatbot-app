@@ -1,5 +1,5 @@
 import streamlit as st
-import requests
+# import requests
 # from streamlit_timeline import st_timeline
 
 # ------------------------- PAGE CONFIGURATION -------------------------
@@ -80,21 +80,34 @@ with st.container():
 # ------------------------- PROJECTS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> PROJECTS </h2>", unsafe_allow_html=True)
 
+
 # ------------------------- CONTACT ME -------------------------
-st.markdown("<h2 style='text-align: center; color: black;'> CONTACT ME </h2>", unsafe_allow_html=True)
-with col2:
-        email = info["Email"]
-        contact_form = f"""
-        <form action="<https://formsubmit.co/{email}>" method="POST">
-            <input type="hidden" name="_captcha value="false">
-            <input type="text" name="name" placeholder="Your name" required>
-            <input type="email" name="email" placeholder="Your email" required>
-            <textarea name="message" placeholder="Your message here" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-        """
-        st.markdown(contact_form, unsafe_allow_html=True)
+# st.markdown("<h2 style='text-align: center; color: black;'> CONTACT ME </h2>", unsafe_allow_html=True)
+# with col2:
+#         email = info["Email"]
+#         contact_form = f"""
+#         <form action="<https://formsubmit.co/{email}>" method="POST">
+#             <input type="hidden" name="_captcha value="false">
+#             <input type="text" name="name" placeholder="Your name" required>
+#             <input type="email" name="email" placeholder="Your email" required>
+#             <textarea name="message" placeholder="Your message here" required></textarea>
+#             <button type="submit">Send</button>
+#         </form>
+#         """
+#         st.markdown(contact_form, unsafe_allow_html=True)
 
 
+# Divider
+st.divider()
+
+# ------------------------- SOCIAL -------------------------
+st.markdown("<h2 style='text-align: center; color: black;'> FOLLOW ME </h2>", unsafe_allow_html=True)
+c1, c2, c3 = st.columns(3)
+with c1:
+    st.info('**GitHub: [@Annunziata-Elefante](https://github.com/Annunziata-Elefante)**', icon="🐈‍⬛")
+with c2:
+    st.info('**LinkedIn: [Annunziata Elefante](https://www.linkedin.com/in/nunzia-elefante/)**', icon="🧰")
+with c3:
+    st.info('**Instagram: [@__nunzia______](https://www.instagram.com/__nunzia______/)**', icon="📸")
 # draw celebratory balloons.
 # st.balloons()
