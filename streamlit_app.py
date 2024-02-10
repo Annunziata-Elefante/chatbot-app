@@ -66,29 +66,11 @@ with st.container():
         st.markdown("<h2 style='text-align: center; color: black;'> 🖥️ </h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: black;'> WORDPRESS </p>", unsafe_allow_html=True)
 
-# ------------------------- WORK TIMELINE -------------------------
-# st.markdown("<h2 style='text-align: center; color: black;'> WORK TIMELINE </h2>", unsafe_allow_html=True)
-
-# with st.container():
-#     st.markdown("""""")
-#     st.subheader('📌 Career Snapshot')
-
-#     # load data
-#     # with open('example.json', "r") as f:
-#     #     data = f.read()
-#     items = [
-#     {"Position": "WEB DEVELOPER FREELANCER", "start": "2021", "end": "Today"},
-#     {"Position": "RESEARCH FELLOW", "start": "2023-04-03", "end": "2023-11-03"}
-# ]
-#     # render timeline
-#     timeline(items, height=400)
-# ------------------------- 
-
 # Divider
 st.divider()
 
-# ------------------------- WORK SNAPSHOT -------------------------
-st.markdown("<h2 style='text-align: center; color: black;'> WORK SNAPSHOT </h2>", unsafe_allow_html=True)
+# ------------------------- WORK TIMELINE -------------------------
+st.markdown("<h2 style='text-align: center; color: black;'> WORK TIMELINE </h2>", unsafe_allow_html=True)
   
 with st.spinner(text="Building line"):
     with open('timeline.json', "r") as f:
