@@ -26,22 +26,22 @@ with st.container():
 # ------------------------- SKILLS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> SKILLS </h2>", unsafe_allow_html=True)
 with st.container():
-    col1, col2, col3, col4 = st.columns(4)[1]
+    col1, col2, col3, col4 = st.columns(4)
     with col1:
-        # st.markdown("<h2 style='text-align: center; color: black;'> 🐍 </h2>", unsafe_allow_html=True)
-        st.subheader("🐍")
+        st.markdown("<h2 style='text-align: center; color: black;'> 🐍 </h2>", unsafe_allow_html=True)
+        # st.subheader("🐍")
         st.caption("PYTHON")
     with col2:
-        # st.markdown("<h2 style='text-align: center; color: black;'> ♨️ </h2>", unsafe_allow_html=True)
-        st.subheader("♨️")
+        st.markdown("<h2 style='text-align: center; color: black;'> ♨️ </h2>", unsafe_allow_html=True)
+        # st.subheader("♨️")
         st.caption("JAVA")
     with col3:
-        # st.markdown("<h2 style='text-align: center; color: black;'> 🌐 </h2>", unsafe_allow_html=True)
-        st.subheader("🌐")
+        st.markdown("<h2 style='text-align: center; color: black;'> 🌐 </h2>", unsafe_allow_html=True)
+        # st.subheader("🌐")
         st.caption("HTML, CSS, JS")
     with col4:
-        # st.markdown("<h2 style='text-align: center; color: black;'> 🐬 </h2>", unsafe_allow_html=True)
-        st.subheader("🐬")
+        st.markdown("<h2 style='text-align: center; color: black;'> 🐬 </h2>", unsafe_allow_html=True)
+        # st.subheader("🐬")
         st.caption("MySQL")
     
 
