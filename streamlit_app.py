@@ -123,7 +123,7 @@ c1, c2, c3 = st.columns(3)
 with c1:
     st.write()
 with c2:
-    st.info('**E-mail**: [nunziaelefante@mail.com]', icon="📨")
+    st.info('**E-mail**: nunziaelefante@mail.com', icon="📨")
 with c3:
     st.write()
 
