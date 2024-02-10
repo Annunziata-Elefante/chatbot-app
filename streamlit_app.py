@@ -17,7 +17,7 @@ st.set_page_config(
 
 # ------------------------- SIDEBAR -------------------------
 with st.sidebar:
-    col1, col2 = st.columns([1, 3])
+    col1, col2 = st.columns([1, 2])
     with col1:
         st.image('images/profile-modified.png')
     with col2:
@@ -30,7 +30,7 @@ with st.sidebar:
 # ------------------------- PROFILE -------------------------
 with st.container():
     # Divide the container into 2 columns
-    col1, col2 = st.columns(2)
+    col1, col2 = st.columns([1, 2])
     with col1:
         st.image('images/photo_profile.webp')                # caption='Annunziata Elefante'   
     with col2:
