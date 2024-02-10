@@ -24,20 +24,22 @@ with st.container():
         st.write("I'm a programmer specializing in Data Science and Machine Learning, as well as a freelance Web Developer.")
 
 # ------------------------- SKILLS -------------------------
+st.markdown("<h2 style='text-align: center; color: black;'>Smaller headline in black </h2>", unsafe_allow_html=True)
+st.subheader("SKILLS ")
 with st.container():
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.header("🐍")
-        st.header("PYTHON")
+        st.subheader("🐍")
+        st.caption("PYTHON")
     with col2:
-        st.header("♨️")
-        st.header("JAVA")
+        st.subheader("♨️")
+        st.caption("JAVA")
     with col3:
-        st.header("🌐")
-        st.header("HTML, CSS, JS")
+        st.subheader("🌐")
+        st.caption("HTML, CSS, JS")
     with col4:
-        st.header("🐬")
-        st.header("MySQL")
+        st.subheader("🐬")
+        st.caption("MySQL")
     
 
 # draw celebratory balloons.
