@@ -6,7 +6,7 @@
           "month": "9"
         },
         "media":{
-            "url":"images/malja",
+            "url":"https://www.malja.it/wp-content/uploads/2021/11/cropped-cropped-cropped-logotipo-trasparente-a-colori-1-1.png",
             "credit":"Malja"
         },
         "text": {
@@ -20,7 +20,7 @@
           "month": "3"
         },
         "media":{
-            "url":"images/tina.jpg",
+            "url":"https://www.tinarusso.it/wp-content/uploads/2023/10/foto-a-6-3-1024x683.jpg",
             "credit":"Osteopata"
         },
         "text": {
@@ -35,7 +35,7 @@
         },
         
         "media":{
-            "url":"images/freya.jpg",
+            "url":"https://www.freyashopping.com/wp-content/uploads/2023/10/cropped-freyacharme_logo_pdf-removebg-preview.png",
             "credit":"Freya"
         },
         "text": {
