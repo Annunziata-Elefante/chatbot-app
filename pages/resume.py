@@ -1,4 +1,4 @@
-import streamlit as st
+meimport streamlit as st
 import base64
 from constant import *
 
@@ -19,13 +19,17 @@ with st.sidebar:
         st.caption("Front-End Developer")
     st.write("☰ MENU")
     st.page_link("streamlit_app.py", label="Home", icon="🏡")
-    st.page_link("pages/resume.py", label="Echo Chat", icon="📝")
+    st.page_link("pages/resume.py", label="Resume", icon="📝")
     st.page_link("pages/echoBot.py", label="Echo Chat", icon="🤖")
+    st.divider()
+    st.download_button('Download Resume', pdfFileObj, file_name='annunziata_elefante_resume.pdf',mime='pdf')
+
 
 # ------------------------- RESUME -------------------------
-# st.markdown("<h2 style='text-align: center; color: black;'> 📝 RESUME </h2>", unsafe_allow_html=True)
 st.title("📝 Resume")
 
+pdfFileObj = open('images/resume.pdf', 'rb')
+st.download_button('Download Resume', pdfFileObj, file_name='annunziata_elefante_resume.pdf',mime='pdf')
 st.write("[Click here if it's blocked by your browser](https://cognitiveclass.ai/)")
 
 with open("images/resume.pdf","rb") as f:
