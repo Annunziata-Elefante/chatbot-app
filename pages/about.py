@@ -45,7 +45,7 @@ with st.container():
         st.caption("2021 - 2023")
     with cl2:
         st.subheader("MASTER'S DEGREE IN COMPUTER SCIENCE (LM-18)")
-        st.write("University of Salerno \nTHESIS: 'Inference of Sensitive Information in Intelligent Environments through the Analysis of Trigger-Action Rules.' \nFINAL GRADE: 110/110 cum laude")
+        st.write("University of Salerno")
         st.write("THESIS: 'Inference of Sensitive Information in Intelligent Environments through the Analysis of Trigger-Action Rules.'")
         st.write("FINAL GRADE: 110/110 cum laude")
 
@@ -56,6 +56,6 @@ with st.container():
         st.caption("2021 - 2023")
     with c2:
         st.subheader("BACHELOR'S DEGREE IN COMPUTER SCIENCE (L-31)")
-        st.write("University of Salerno \nTHESIS: 'Development of front-end services for the EcoGrowth application.' \nFINAL GRADE: 110/110 cum laude")
+        st.write("University of Salerno")
         st.write("THESIS: 'Development of front-end services for the EcoGrowth application.'")
         st.write("FINAL GRADE: 110/110 cum laude")
