@@ -1,5 +1,6 @@
 import streamlit as st
 from streamlit_timeline import st_timeline
+import streamlit.components.v1 as components
 
 # ------------------------- SIDEBAR -------------------------
 with st.sidebar:
@@ -48,14 +49,23 @@ with st.container():
 
 # ------------------------- PROJECTS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> WORK TIMELINE </h2>", unsafe_allow_html=True)
-items = [
+
+with st.container():
+    st.markdown("""""")
+    st.subheader('📌 Career Snapshot')
+
+    # load data
+    # with open('example.json', "r") as f:
+    #     data = f.read()
+    items = [
     {"Position": "WEB DEVELOPER FREELANCER", "start": "2021", "end": "Today"},
     {"Position": "RESEARCH FELLOW", "start": "2023-04-03", "end": "2023-11-03"}
 ]
-
-timeline = st_timeline(items, groups=[], options={}, height="300px")
-#st.subheader("Selected item")
-st.subheader(timeline)
+    # render timeline
+    timeline(items, height=400)
+# timeline = st_timeline(items, groups=[], options={}, height="300px")
+# st.subheader("Selected item")
+# st.subheader(timeline)
 
 
 # draw celebratory balloons.
