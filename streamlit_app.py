@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_timeline import timeline
-from streamlit_card import card
 
 
 # ------------------------- PAGE CONFIGURATION -------------------------
@@ -92,17 +91,12 @@ with st.spinner(text="Building line"):
         data = f.read()
         timeline(data, height=500)
 
-# Divider
-st.divider()
+# # Divider
+# st.divider()
 
-# ------------------------- PROJECTS -------------------------
-st.markdown("<h2 style='text-align: center; color: black;'> PROJECTS </h2>", unsafe_allow_html=True)
-hasClicked = card(
-  title="Hello World!",
-  text="Some description",
-  image="http://placekitten.com/200/300",
-  url="https://github.com/gamcoh/st-card"
-)
+# # ------------------------- PROJECTS -------------------------
+# st.markdown("<h2 style='text-align: center; color: black;'> PROJECTS </h2>", unsafe_allow_html=True)
+
 
 # Divider
 st.divider()
