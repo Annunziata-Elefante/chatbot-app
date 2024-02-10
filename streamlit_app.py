@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_timeline import st_timeline
-import streamlit.components.v1 as components
 
 # ------------------------- SIDEBAR -------------------------
 with st.sidebar:
