@@ -25,6 +25,19 @@ with st.container():
 
 # ------------------------- SKILLS -------------------------
 with st.container():
+    col1, col2, col3, col4 = st.columns(4, vertical_align="center")
+    with col1:
+        st.header("🐍")
+        st.header("PYTHON")
+    with col2:
+        st.header("♨️")
+        st.header("JAVA")
+    with col3:
+        st.header("🌐")
+        st.header("HTML, CSS, JS")
+    with col4:
+        st.header("🐬")
+        st.header("MySQL")
     
 
 # draw celebratory balloons.
