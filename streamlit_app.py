@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_timeline import st_timeline
+# from streamlit_timeline import st_timeline
 
 # ------------------------- PAGE CONFIGURATION -------------------------
 st.set_page_config(
