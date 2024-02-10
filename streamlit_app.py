@@ -21,7 +21,8 @@ with col2:
 with st.sidebar:
     col1, col2 = st.columns(2)
     with col1:
-        st.image('images/photo_profile.webp') 
+        st.image('images/profile-modified.png')
+    with col2:
         st.write("Annunziata Elefante")
     # st.image('images/profile.JPG', caption='Nunzia')
     st.write("☰ MENU")
