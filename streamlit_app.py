@@ -47,7 +47,7 @@ with st.container():
 # ------------------------- SKILLS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> SKILLS </h2>", unsafe_allow_html=True)
 with st.container():
-    col1, col2, col3, col4, col5 = st.columns(5)
+    col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.markdown("<h2 style='text-align: center; color: black;'> 🐍 </h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: black;'> PYTHON </p>", unsafe_allow_html=True)
@@ -62,9 +62,22 @@ with st.container():
     with col4:
         st.markdown("<h2 style='text-align: center; color: black;'> 🐬 </h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: black;'> MySQL </p>", unsafe_allow_html=True)
-    with col5:
+
+with st.container():
+    cl1, cl2, cl3, cl4 = st.columns(4)
+    with cl1:
+        st.markdown("<h2 style='text-align: center; color: black;'> 📊 </h2>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> R </p>", unsafe_allow_html=True)
+    with cl2:
         st.markdown("<h2 style='text-align: center; color: black;'> 🖥️ </h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: black;'> WORDPRESS </p>", unsafe_allow_html=True)
+    with cl3:
+        st.markdown("<h2 style='text-align: center; color: black;'> 📱 </h2>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> Angular, Ionic </p>", unsafe_allow_html=True)
+    with cl4:
+        st.markdown("<h2 style='text-align: center; color: black;'> 🐘 </h2>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> MongoDB </p>", unsafe_allow_html=True)
+        
 
 # Divider
 st.divider()
