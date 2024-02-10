@@ -35,7 +35,6 @@ with st.container():
         st.write("I'm 25 years-old and I'm a front-end developer based in Italy. I'm specialized in Data Science & Machine Learning🤖 and during this peroid I'm workis as a Web Developer Freelancer.")
         st.write("You should also know that I'm also a passionate and creative girl who loves spending time with loved ones and cats😸.\nI'm always availble for a chat ot coffee☕")
 
-st.markdown("<h2 style='text-align: center; color: black;'>   </h2>", unsafe_allow_html=True)
 
 # ------------------------- EDUCATION -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> EDUCATION 🎓 </h2>", unsafe_allow_html=True)
