@@ -17,6 +17,9 @@ with st.sidebar:
     st.divider()
     st.download_button('📝 Download Resume', pdfFileObj, file_name='annunziata_elefante_resume.pdf',mime='pdf')
 
+# ------------------------- EDUCATION -------------------------
+st.markdown("<h2 style='text-align: center; color: black;'> EDUCATION 🎓 </h2>", unsafe_allow_html=True)
+
 # ------------------------- ABOUT ME -------------------------
 # st.markdown("<h2 style='text-align: center; color: black;'> ABOUT ME 🌼 </h2>", unsafe_allow_html=True)
 with st.container():
@@ -36,28 +39,17 @@ with st.container():
         st.write("You should also know that I'm also a passionate and creative girl who loves spending time with loved ones❤️ and cats😸.\nI'm always availble for a chat ot coffee☕")
 
 
-# ------------------------- EDUCATION -------------------------
-st.markdown("<h2 style='text-align: center; color: black;'> EDUCATION 🎓 </h2>", unsafe_allow_html=True)
+# ------------------------- LANGUAGE SKILLS -------------------------
+st.markdown("<h2 style='text-align: center; color: black;'> LANGUAGE SKILLS 💬 </h2>", unsafe_allow_html=True)
 with st.container():
-    cl1, cl2 = st.columns([1, 3])
-    with cl1:
-        st.caption("2021 - 2023")
-    with cl2:
-        st.subheader("MASTER'S DEGREE IN COMPUTER SCIENCE (LM-18)")
-        st.write("_University of Salerno_")
-        st.write("THESIS: 'Inference of Sensitive Information in Intelligent Environments through the Analysis of Trigger-Action Rules.'")
-        st.write("FINAL GRADE: 110/110 cum laude")
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.markdown("<h2 style='text-align: center; color: black;'> 🍕 </h2>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> Italian - Native language </p>", unsafe_allow_html=True)
+    with col2:
+        st.markdown("<h2 style='text-align: center; color: black;'> 💂 </h2>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> English Level C1 - LanguageCert Level 2 Certificate in ESOL International </p>", unsafe_allow_html=True)
 
-    st.divider()
-    
-    c1, c2 = st.columns([1, 3])
-    with c1:
-        st.caption("2021 - 2023")
-    with c2:
-        st.subheader("BACHELOR'S DEGREE IN COMPUTER SCIENCE (L-31)")
-        st.write("_University of Salerno_")
-        st.write("THESIS: 'Development of front-end services for the EcoGrowth application.'")
-        st.write("FINAL GRADE: 110/110 cum laude")
 
 # ------------------------- RESEARCH PAPERS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> RESEARCH PAPERS 📑 </h2>", unsafe_allow_html=True)
