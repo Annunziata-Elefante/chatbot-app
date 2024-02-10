@@ -29,24 +29,21 @@ with st.container():
     col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
         st.markdown("<h2 style='text-align: center; color: black;'> 🐍 </h2>", unsafe_allow_html=True)
-        st.markdown("<caption style='text-align: center; color: black;'> PYTHON </caption>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center; color: black;'> PYTHON </h4>", unsafe_allow_html=True)
         # st.subheader("🐍")
         # st.caption("PYTHON")
     with col2:
         st.markdown("<h2 style='text-align: center; color: black;'> ♨️ </h2>", unsafe_allow_html=True)
-        # st.subheader("♨️")
-        st.caption("JAVA")
+        st.markdown("<h4 style='text-align: center; color: black;'> JAVA </h4>", unsafe_allow_html=True)
     with col3:
         st.markdown("<h2 style='text-align: center; color: black;'> 🌐 </h2>", unsafe_allow_html=True)
-        # st.subheader("🌐")
-        st.caption("HTML, CSS, JS")
+        st.markdown("<h4 style='text-align: center; color: black;'> HTML, CSS, JS </h4>", unsafe_allow_html=True)
     with col4:
         st.markdown("<h2 style='text-align: center; color: black;'> 🐬 </h2>", unsafe_allow_html=True)
-        # st.subheader("🐬")
-        st.caption("MySQL")
+        st.markdown("<h4 style='text-align: center; color: black;'> MySQL </h4>", unsafe_allow_html=True)
     with col5:
         st.markdown("<h2 style='text-align: center; color: black;'> 🖥️ </h2>", unsafe_allow_html=True)
-        st.markdown("<caption style='text-align: center; color: black;'> WORDPRESS </caption>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center; color: black;'> WORDPRESS </h4>", unsafe_allow_html=True)
     
 
 # draw celebratory balloons.
