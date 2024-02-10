@@ -30,7 +30,7 @@ with st.sidebar:
 # ------------------------- PROFILE -------------------------
 with st.container():
     # Divide the container into 2 columns
-    col1, col2 = st.columns([0.5, 1])
+    col1, col2 = st.columns([1, 4])
     with col1:
         st.image('images/photo_profile.webp')                # caption='Annunziata Elefante'   
     with col2:
