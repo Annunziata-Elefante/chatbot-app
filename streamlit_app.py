@@ -7,7 +7,7 @@ import streamlit as st
 
 
 # PROFILE
-col1, col2 = st.columns([3, 1])
+col1, col2 = st.columns([3, 2])
 with col1:
     st.header("Hey there. 🦋")
     st.header("I'm Annunziata Elefante!")
