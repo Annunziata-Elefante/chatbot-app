@@ -32,7 +32,7 @@ st.divider()
 # ------------------------- EDUCATION -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> EDUCATION 🎓 </h2>", unsafe_allow_html=True)
 with st.container():
-  cl1, cl2 = st.columns([1, 3])
+    cl1, cl2 = st.columns([1, 3])
     with cl1:
         st.captio(2021 - 2023)
     with cl2:
