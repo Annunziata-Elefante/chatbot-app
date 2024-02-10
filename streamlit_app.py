@@ -43,10 +43,10 @@ with st.container():
     #     st.header("Hey there. 🦋")
     #     st.header("I'm Annunziata Elefante!")
     #     st.write("I'm a programmer specializing in Data Science and Machine Learning, as well as a freelance Web Developer.")
-    st.header("Hey there. 🦋")
-    st.header("I'm Annunziata Elefante!")
-    st.write("I'm a programmer specializing in Data Science and Machine Learning, as well as a freelance Web Developer.")
-
+    st.markdown("<h1 style='text-align: center; color: black;'> Hey there. 🦋 </h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: black;'> I'm Annunziata Elefante! </h1>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; color: black;'> I'm a programmer specializing in Data Science and Machine Learning, as well as a freelance Web Developer. </p>", unsafe_allow_html=True)
+    
 # ------------------------- SKILLS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> SKILLS </h2>", unsafe_allow_html=True)
 with st.container():
