@@ -1,6 +1,6 @@
 import streamlit as st
-# import requests
 from streamlit_timeline import timeline
+from streamlit_card import card
 
 
 # ------------------------- PAGE CONFIGURATION -------------------------
@@ -97,11 +97,12 @@ st.divider()
 
 # ------------------------- PROJECTS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> PROJECTS </h2>", unsafe_allow_html=True)
-card(
-        title="Hello World!",
-        text="Some description",
-        image="images/memoji.webp",
-    )
+hasClicked = card(
+  title="Hello World!",
+  text="Some description",
+  image="http://placekitten.com/200/300",
+  url="https://github.com/gamcoh/st-card"
+)
 
 # Divider
 st.divider()
