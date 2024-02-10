@@ -42,7 +42,7 @@ with st.container():
 # ------------------------- LANGUAGE SKILLS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> LANGUAGE SKILLS 💬 </h2>", unsafe_allow_html=True)
 with st.container():
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2 = st.columns(2)
     with col1:
         st.markdown("<h2 style='text-align: center; color: black;'> 🍕 </h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: black;'> Italian - Native language </p>", unsafe_allow_html=True)
