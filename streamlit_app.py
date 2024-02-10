@@ -53,12 +53,12 @@ with st.container():
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.markdown("<h2 style='text-align: center; color: black;'> 🐍 </h2>", unsafe_allow_html=True)
-        st.markdown("<p style='text-align: center; color: black;'> PYTHON </p>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> Python </p>", unsafe_allow_html=True)
         # st.subheader("🐍")
         # st.caption("PYTHON")
     with col2:
         st.markdown("<h2 style='text-align: center; color: black;'> ♨️ </h2>", unsafe_allow_html=True)
-        st.markdown("<p style='text-align: center; color: black;'> JAVA </p>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> Java </p>", unsafe_allow_html=True)
     with col3:
         st.markdown("<h2 style='text-align: center; color: black;'> 🌐 </h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: black;'> HTML, CSS, JS </p>", unsafe_allow_html=True)
@@ -73,7 +73,7 @@ with st.container():
         st.markdown("<p style='text-align: center; color: black;'> R </p>", unsafe_allow_html=True)
     with cl2:
         st.markdown("<h2 style='text-align: center; color: black;'> 🖥️ </h2>", unsafe_allow_html=True)
-        st.markdown("<p style='text-align: center; color: black;'> WORDPRESS </p>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> WordPress </p>", unsafe_allow_html=True)
     with cl3:
         st.markdown("<h2 style='text-align: center; color: black;'> 📱 </h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: black;'> Angular, Ionic </p>", unsafe_allow_html=True)
