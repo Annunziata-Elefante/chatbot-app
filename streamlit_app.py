@@ -15,6 +15,9 @@ st.set_page_config(
     # }
 )
 
+# open pdf
+pdfFileObj = open('images/resume.pdf', 'rb')
+
 # ------------------------- SIDEBAR -------------------------
 with st.sidebar:
     col1, col2 = st.columns([1, 2])
