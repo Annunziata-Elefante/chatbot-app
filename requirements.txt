@@ -1,4 +1,5 @@
 streamlit>=1.26.0
 streamlit_timeline==0.0.2
 streamlit-vis-timeline==0.3.0
+Requests==2.30.0
 
