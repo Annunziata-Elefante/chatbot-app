@@ -23,7 +23,7 @@ with st.sidebar:
     with col1:
         st.image('images/profile-modified.png')
     with col2:
-        st.write("Annunziata Elefante")
+        st.header("Annunziata Elefante")
     # st.image('images/profile.JPG', caption='Nunzia')
     st.write("☰ MENU")
     st.page_link("streamlit_app.py", label="Home", icon="🏡")
