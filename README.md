@@ -7,7 +7,7 @@ Description of the app ...
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-app-dt9jedahsv9u4swxrebfzu.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-app-test-kjheplgezgquyfdouhh8jv.streamlit.app/)
 
 <!--
 ## GitHub Codespaces
