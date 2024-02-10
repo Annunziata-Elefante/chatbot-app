@@ -1,2 +1,3 @@
 streamlit>=1.26.0
-streamlit-vis-timeline
+streamlit_timeline==0.0.2
+
