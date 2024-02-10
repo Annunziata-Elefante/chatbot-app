@@ -6,7 +6,7 @@ import streamlit as st
 st.set_page_config(
     page_title="Annunziata Elefante",
     page_icon="🦋",
-    # layout="wide",
+    layout="wide",
     initial_sidebar_state="expanded",
     # menu_items={
     #     'Get Help': 'https://www.extremelycoolapp.com/help',
@@ -30,7 +30,7 @@ with st.sidebar:
 # ------------------------- PROFILE -------------------------
 with st.container():
     # Divide the container into 2 columns
-    col1, col2 = st.columns([1, 4])
+    col1, col2 = st.columns([1, 3])
     with col1:
         st.image('images/photo_profile.webp')                # caption='Annunziata Elefante'   
     with col2:
@@ -113,5 +113,6 @@ with c2:
     st.info('**LinkedIn**: [@nunzia-elefante](https://www.linkedin.com/in/nunzia-elefante/)', icon="🧰")
 with c3:
     st.info('**Instagram**: [@__nunzia______](https://www.instagram.com/__nunzia______/)', icon="📸")
+
 # draw celebratory balloons.
 # st.balloons()
