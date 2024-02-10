@@ -1,6 +1,19 @@
 import streamlit as st
 from streamlit_timeline import st_timeline
 
+# ------------------------- PAGE CONFIGURATION -------------------------
+st.set_page_config(
+    page_title="Annunziata Elefante",
+    page_icon="🦋",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    # menu_items={
+    #     'Get Help': 'https://www.extremelycoolapp.com/help',
+    #     'Report a bug': "https://www.extremelycoolapp.com/bug",
+    #     'About': "# This is a header. This is an *extremely* cool app!"
+    # }
+)
+
 # ------------------------- SIDEBAR -------------------------
 with st.sidebar:
     col1, col2 = st.columns([1, 2])
@@ -46,25 +59,41 @@ with st.container():
         st.markdown("<h2 style='text-align: center; color: black;'> 🖥️ </h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: black;'> WORDPRESS </p>", unsafe_allow_html=True)
 
+# ------------------------- WORK TIMELINE -------------------------
+# st.markdown("<h2 style='text-align: center; color: black;'> WORK TIMELINE </h2>", unsafe_allow_html=True)
+
+# with st.container():
+#     st.markdown("""""")
+#     st.subheader('📌 Career Snapshot')
+
+#     # load data
+#     # with open('example.json', "r") as f:
+#     #     data = f.read()
+#     items = [
+#     {"Position": "WEB DEVELOPER FREELANCER", "start": "2021", "end": "Today"},
+#     {"Position": "RESEARCH FELLOW", "start": "2023-04-03", "end": "2023-11-03"}
+# ]
+#     # render timeline
+#     timeline(items, height=400)
+
 # ------------------------- PROJECTS -------------------------
-st.markdown("<h2 style='text-align: center; color: black;'> WORK TIMELINE </h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: black;'> PROJECTS </h2>", unsafe_allow_html=True)
 
-with st.container():
-    st.markdown("""""")
-    st.subheader('📌 Career Snapshot')
-
-    # load data
-    # with open('example.json', "r") as f:
-    #     data = f.read()
-    items = [
-    {"Position": "WEB DEVELOPER FREELANCER", "start": "2021", "end": "Today"},
-    {"Position": "RESEARCH FELLOW", "start": "2023-04-03", "end": "2023-11-03"}
-]
-    # render timeline
-    timeline(items, height=400)
-# timeline = st_timeline(items, groups=[], options={}, height="300px")
-# st.subheader("Selected item")
-# st.subheader(timeline)
+# ------------------------- CONTACT ME -------------------------
+st.markdown("<h2 style='text-align: center; color: black;'> CONTACT ME </h2>", unsafe_allow_html=True)
+with col2:
+        st.subheader("📨 Contact Me")
+        email = info["Email"]
+        contact_form = f"""
+        <form action="<https://formsubmit.co/{email}>" method="POST">
+            <input type="hidden" name="_captcha value="false">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message here" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        """
+        st.markdown(contact_form, unsafe_allow_html=True)
 
 
 # draw celebratory balloons.
