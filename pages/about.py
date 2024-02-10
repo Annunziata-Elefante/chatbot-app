@@ -36,7 +36,7 @@ with st.container():
         st.write("You should also know that I'm also a passionate and creative girl who loves spending time with loved ones and cats😸.\nI'm always availble for a chat ot coffee☕")
 
 with st.container():
-    st.header()
+    st.header("")
 
 # ------------------------- EDUCATION -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> EDUCATION 🎓 </h2>", unsafe_allow_html=True)
