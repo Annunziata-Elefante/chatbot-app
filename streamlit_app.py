@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_timeline import st_timeline
 
 # ------------------------- SIDEBAR -------------------------
 with st.sidebar:
@@ -29,22 +30,33 @@ with st.container():
     col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
         st.markdown("<h2 style='text-align: center; color: black;'> 🐍 </h2>", unsafe_allow_html=True)
-        st.markdown("<h4 style='text-align: center; color: black;'> PYTHON </h4>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> PYTHON </p>", unsafe_allow_html=True)
         # st.subheader("🐍")
         # st.caption("PYTHON")
     with col2:
         st.markdown("<h2 style='text-align: center; color: black;'> ♨️ </h2>", unsafe_allow_html=True)
-        st.markdown("<h4 style='text-align: center; color: black;'> JAVA </h4>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> JAVA </p>", unsafe_allow_html=True)
     with col3:
         st.markdown("<h2 style='text-align: center; color: black;'> 🌐 </h2>", unsafe_allow_html=True)
-        st.markdown("<h4 style='text-align: center; color: black;'> HTML, CSS, JS </h4>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> HTML, CSS, JS </p>", unsafe_allow_html=True)
     with col4:
         st.markdown("<h2 style='text-align: center; color: black;'> 🐬 </h2>", unsafe_allow_html=True)
-        st.markdown("<h4 style='text-align: center; color: black;'> MySQL </h4>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> MySQL </p>", unsafe_allow_html=True)
     with col5:
         st.markdown("<h2 style='text-align: center; color: black;'> 🖥️ </h2>", unsafe_allow_html=True)
-        st.markdown("<h4 style='text-align: center; color: black;'> WORDPRESS </h4>", unsafe_allow_html=True)
-    
+        st.markdown("<p style='text-align: center; color: black;'> WORDPRESS </p>", unsafe_allow_html=True)
+
+# ------------------------- PROJECTS -------------------------
+st.markdown("<h2 style='text-align: center; color: black;'> WORK TIMELINE </h2>", unsafe_allow_html=True)
+items = [
+    {"Position": "WEB DEVELOPER FREELANCER", "start": "2021", "end": "Today"},
+    {"Position": "RESEARCH FELLOW", "start": "2023-04-03", "end": "2023-11-03"}
+]
+
+timeline = st_timeline(items, groups=[], options={}, height="300px")
+#st.subheader("Selected item")
+st.subheader(timeline)
+
 
 # draw celebratory balloons.
 # st.balloons()
