@@ -7,18 +7,14 @@ import streamlit as st
 
 
 # PROFILE
-row1 = st.columns(2)
-row2 = st.columns(1)
-
-# col1, col2 = st.columns(2)
+col1, col2 = st.columns(2)
 for col in row1:
     with col1:
         st.image('images/photo_profile.webp')                # caption='Annunziata Elefante'   
-        # st.write("Hi there 👋 My name is Annunziata Elefante, but my friends call me :black[Nunzia]. \n I'm a 25-year-old programmer with a specialization in Data Science and Machine Learning. \n\n")
     with col2:
         st.header("Hey there. 🦋")
         st.header("I'm Annunziata Elefante!")
-        st.write("I'm a programmer with a specialization in Data Science and Machine Learning, and Web Developer Freelancer.")
+        st.write("I'm a programmer specializing in Data Science and Machine Learning, as well as a freelance Web Developer.")
      
 
 # SIDEBAR
