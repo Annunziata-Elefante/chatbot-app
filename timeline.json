@@ -6,9 +6,7 @@
           "month": "9"
         },
         "media":{
-            "url":"https://www.malja.it/wp-content/uploads/2021/11/cropped-cropped-cropped-logotipo-trasparente-a-colori-1-1.png",
-            "credit":"Malja"
-        },
+            "url":"https://www.malja.it/wp-content/uploads/2021/11/cropped-cropped-cropped-logotipo-trasparente-a-colori-1-1.png"        },
         "text": {
           "headline": "Malja.it",
           "text": "I developed the first e-commerce for a local brand that specializes in accessories  made in Italy. "
@@ -20,9 +18,7 @@
           "month": "3"
         },
         "media":{
-            "url":"https://www.tinarusso.it/wp-content/uploads/2023/10/foto-a-6-3-1024x683.jpg",
-            "credit":"Osteopata"
-        },
+            "url":"https://www.tinarusso.it/wp-content/uploads/2023/10/foto-a-6-3-1024x683.jpg"        },
         "text": {
           "headline": "TinaRusso.it",
           "text": "I developed the first landing page to sponsor the work and services offered by a local osteopath"
@@ -35,8 +31,7 @@
         },
         
         "media":{
-            "url":"https://www.freyashopping.com/wp-content/uploads/2023/10/cropped-freyacharme_logo_pdf-removebg-preview.png",
-            "credit":"Freya"
+            "url":"https://www.freyashopping.com/wp-content/uploads/2023/10/cropped-freyacharme_logo_pdf-removebg-preview.png"
         },
         "text": {
           "headline": "FreyaShopping.com",
