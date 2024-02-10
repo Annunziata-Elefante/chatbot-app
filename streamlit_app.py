@@ -44,6 +44,9 @@ with st.container():
         st.markdown("<h2 style='text-align: center; color: black;'> 🐬 </h2>", unsafe_allow_html=True)
         # st.subheader("🐬")
         st.caption("MySQL")
+    with col5:
+        st.markdown("<h2 style='text-align: center; color: black;'> 🖥️ </h2>", unsafe_allow_html=True)
+        st.markdown("<caption style='text-align: center; color: black;'> WORDPRESS </caption>", unsafe_allow_html=True)
     
 
 # draw celebratory balloons.
