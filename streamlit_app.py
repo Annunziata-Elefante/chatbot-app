@@ -6,7 +6,7 @@ import streamlit as st
 st.set_page_config(
     page_title="Annunziata Elefante",
     page_icon="🦋",
-    # layout="wide",
+    layout="wide",
     initial_sidebar_state="expanded",
     # menu_items={
     #     'Get Help': 'https://www.extremelycoolapp.com/help',
@@ -17,7 +17,7 @@ st.set_page_config(
 
 # ------------------------- SIDEBAR -------------------------
 with st.sidebar:
-    col1, col2 = st.columns([1, 2])
+    col1, col2 = st.columns([1, 3])
     with col1:
         st.image('images/profile-modified.png')
     with col2:
@@ -76,6 +76,10 @@ with st.container():
 # ]
 #     # render timeline
 #     timeline(items, height=400)
+# ------------------------- 
+
+# Divider
+st.divider()
 
 # ------------------------- PROJECTS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> PROJECTS </h2>", unsafe_allow_html=True)
