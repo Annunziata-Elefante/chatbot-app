@@ -104,10 +104,10 @@ st.divider()
 st.markdown("<h2 style='text-align: center; color: black;'> FOLLOW ME </h2>", unsafe_allow_html=True)
 c1, c2, c3 = st.columns(3)
 with c1:
-    st.info('**GitHub: [@Annunziata-Elefante](https://github.com/Annunziata-Elefante)**', icon="🐈‍⬛")
+    st.info('**GitHub**: [@Annunziata-Elefante](https://github.com/Annunziata-Elefante)', icon="🐈‍⬛")
 with c2:
-    st.info('**LinkedIn: [Annunziata Elefante](https://www.linkedin.com/in/nunzia-elefante/)**', icon="🧰")
+    st.info('**LinkedIn**: [@nunzia-elefante](https://www.linkedin.com/in/nunzia-elefante/)', icon="🧰")
 with c3:
-    st.info('**Instagram: [@__nunzia______](https://www.instagram.com/__nunzia______/)**', icon="📸")
+    st.info('**Instagram**: [@__nunzia______](https://www.instagram.com/__nunzia______/)', icon="📸")
 # draw celebratory balloons.
 # st.balloons()
