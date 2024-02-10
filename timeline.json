@@ -1,0 +1,57 @@
+{
+    "events": [
+      {
+        "start_date": {
+          "year": "2021",
+          "month": "2"
+        },
+        "media":{
+            "url":"images/malja",
+            "credit":"Malja"
+        },
+        "text": {
+          "headline": "Malja.it || E-commerce",
+          "text": "I developed the first website for a local brand that specializes in accessories  made in Italy. "
+        }
+      },
+      {
+        "start_date": {
+          "year": "2023",
+          "month": "1"
+        },
+        "media":{
+            "url":"images/tina.jpg",
+            "credit":"Osteopata"
+        },
+        "text": {
+          "headline": "TinaRusso.it || LAnding Page",
+          "text": "I developed this website to sponsor the work and services offered by a local osteopath"
+        }
+      },
+      {
+        "start_date": {
+          "year": "2023",
+          "month": "2"
+        },
+        
+        "media":{
+            "url":"images/freya.jpg",
+            "credit":"Freya"
+        },
+        "text": {
+          "headline": "FreyaShopping.com || E-commerce",
+          "text": "I developed this website for selling vintage jewelry"
+        }
+      },
+      {
+        "start_date": {
+          "year": "2023",
+          "month": "7"
+        },
+        "text": {
+          "headline": "Research Fellow",
+          "text": "The project titled 'Inference of Sensitive Information from Automation Rules' was pursued at the Department of Computer Science, University of Salerno. The primary objectives included analyzing the application domain and associated issues, thoroughly researching relevant material, developing and documenting methodologies specific to Natural Language Processing (NLP), and conducting user studies."
+        }
+      }
+    ]
+  }
