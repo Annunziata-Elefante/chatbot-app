@@ -1,4 +1,5 @@
 import streamlit as st
+import requests
 # from streamlit_timeline import st_timeline
 
 # ------------------------- PAGE CONFIGURATION -------------------------
@@ -82,7 +83,6 @@ st.markdown("<h2 style='text-align: center; color: black;'> PROJECTS </h2>", uns
 # ------------------------- CONTACT ME -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> CONTACT ME </h2>", unsafe_allow_html=True)
 with col2:
-        st.subheader("📨 Contact Me")
         email = info["Email"]
         contact_form = f"""
         <form action="<https://formsubmit.co/{email}>" method="POST">
