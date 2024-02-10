@@ -26,11 +26,12 @@ with st.container():
 # ------------------------- SKILLS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> SKILLS </h2>", unsafe_allow_html=True)
 with st.container():
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3, col4, col5 = st.columns(4)
     with col1:
         st.markdown("<h2 style='text-align: center; color: black;'> 🐍 </h2>", unsafe_allow_html=True)
+        st.markdown("<caption style='text-align: center; color: black;'> PYTHON </caption>", unsafe_allow_html=True)
         # st.subheader("🐍")
-        st.caption("PYTHON")
+        # st.caption("PYTHON")
     with col2:
         st.markdown("<h2 style='text-align: center; color: black;'> ♨️ </h2>", unsafe_allow_html=True)
         # st.subheader("♨️")
