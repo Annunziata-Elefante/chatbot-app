@@ -25,6 +25,7 @@ with st.sidebar:
         st.caption("Front-End Developer")
     st.write("☰ MENU")
     st.page_link("streamlit_app.py", label="Home", icon="🏡")
+    st.page_link("pages/resume.py", label="Echo Chat", icon="📝")
     st.page_link("pages/echoBot.py", label="Echo Chat", icon="🤖")
 
 # ------------------------- PROFILE -------------------------
