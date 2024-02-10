@@ -3,7 +3,7 @@
       {
         "start_date": {
           "year": "2021",
-          "month": "2"
+          "month": "9"
         },
         "media":{
             "url":"images/malja",
@@ -17,7 +17,7 @@
       {
         "start_date": {
           "year": "2023",
-          "month": "1"
+          "month": "3"
         },
         "media":{
             "url":"images/tina.jpg",
@@ -31,7 +31,7 @@
       {
         "start_date": {
           "year": "2023",
-          "month": "2"
+          "month": "4"
         },
         
         "media":{
@@ -46,11 +46,15 @@
       {
         "start_date": {
           "year": "2023",
-          "month": "7"
+          "month": "4"
         },
         "text": {
           "headline": "Research Fellow",
           "text": "The project titled 'Inference of Sensitive Information from Automation Rules' was pursued at the Department of Computer Science, University of Salerno. The primary objectives included analyzing the application domain and associated issues, thoroughly researching relevant material, developing and documenting methodologies specific to Natural Language Processing (NLP), and conducting user studies."
+        },
+        "end_date": {
+          "year": "2023",
+          "month": "11"
         }
       }
     ]
