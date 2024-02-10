@@ -81,7 +81,6 @@ with st.container():
         st.markdown("<h2 style='text-align: center; color: black;'> 🐘 </h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: black;'> MongoDB </p>", unsafe_allow_html=True)
         
-
 # Divider
 st.divider()
 
@@ -93,21 +92,16 @@ with st.spinner(text="Building line"):
         data = f.read()
         timeline(data, height=500)
 
-# ------------------------- CONTACT ME -------------------------
-# st.markdown("<h2 style='text-align: center; color: black;'> CONTACT ME </h2>", unsafe_allow_html=True)
-# with col2:
-#         email = info["Email"]
-#         contact_form = f"""
-#         <form action="<https://formsubmit.co/{email}>" method="POST">
-#             <input type="hidden" name="_captcha value="false">
-#             <input type="text" name="name" placeholder="Your name" required>
-#             <input type="email" name="email" placeholder="Your email" required>
-#             <textarea name="message" placeholder="Your message here" required></textarea>
-#             <button type="submit">Send</button>
-#         </form>
-#         """
-#         st.markdown(contact_form, unsafe_allow_html=True)
+# Divider
+st.divider()
 
+# ------------------------- PROJECTS -------------------------
+st.markdown("<h2 style='text-align: center; color: black;'> PROJECTS </h2>", unsafe_allow_html=True)
+card(
+        title="Hello World!",
+        text="Some description",
+        image="images/memoji.webp",
+    )
 
 # Divider
 st.divider()
