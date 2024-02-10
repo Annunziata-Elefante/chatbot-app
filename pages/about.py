@@ -32,10 +32,10 @@ st.divider()
 # ------------------------- EDUCATION -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> EDUCATION 🎓 </h2>", unsafe_allow_html=True)
 with st.container():
-  c1, c2 = st.columns([1, 3])
-    with c1:
+  cl1, cl2 = st.columns([1, 3])
+    with cl1:
         st.captio(2021 - 2023)
-    with c2:
+    with cl2:
         st.subheader("MASTER'S DEGREE IN COMPUTER SCIENCE (LM-18)")
         st.write("University of Salerno \nTHESIS: 'Inference of Sensitive Information in Intelligent Environments through the Analysis of Trigger-Action Rules.' \nFINAL GRADE: 110/110 cum laude")
 st.divider()
