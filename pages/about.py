@@ -36,6 +36,7 @@ with st.container():
         st.write("I'm 25 years-old and I'm a front-end developer based in Italy. I'm specialized in Data Science & Machine Learning🤖 and during this peroid I'm workis as a Web Developer Freelancer💻.")
         st.write("You should also know that I'm also a passionate and creative girl who loves spending time with loved ones❤️ and cats😸.\nI'm always availble for a chat ot coffee☕")
 
+st.divider()
 
 # ------------------------- EDUCATION -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> EDUCATION 🎓 </h2>", unsafe_allow_html=True)
@@ -46,8 +47,6 @@ with st.container():
     with cl2:
         st.write("MASTER'S DEGREE IN COMPUTER SCIENCE (LM-18)")
         st.write("_University of Salerno_")
-        
-    st.divider()
     
     c1, c2 = st.columns([1, 3])
     with c1:
@@ -67,6 +66,7 @@ with st.container():
         st.markdown("<h2 style='text-align: center; color: black;'> 💂 </h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: black;'> English Level C1 - LanguageCert Level 2 Certificate in ESOL International </p>", unsafe_allow_html=True)
 
+st.divider()
 
 # ------------------------- RESEARCH PAPERS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> RESEARCH PAPERS 📑 </h2>", unsafe_allow_html=True)
@@ -78,9 +78,7 @@ with st.container():
         st.write("B. Breve, G. Cimino, V. Deufemia, A. Elefante,")
         st.write("'Unleashing the Power of NLP Models for Semantic Consistency Checking of Automation Rules',")
         st.write("Proceedings of the Journal of Visual Language and Computing (JVLC) Vol. 2023 No.2, December 2023, pp.1-14")
-        
-    st.divider()
-    
+            
     c1, c2 = st.columns([1, 3])
     with c1:
         st.caption("[3]")
@@ -88,8 +86,6 @@ with st.container():
         st.write("B. Breve, G. Cimino, V. Deufemia, A. Elefante,")
         st.write("'A BERT-based Model for Semantic Consistency Checking of Automation Rules',")
         st.write("Proceedings of 29th International DMS Conference on Visualization and Visual Languages (DMSVIVA 2023), San Francisco, 29-30 June, 2023, pp. 87-93, ISSN: 2326-3261")
-
-    st.divider()
     
     col1, col2 = st.columns([1, 3])
     with col1:
@@ -99,8 +95,6 @@ with st.container():
         st.write("'User Perception of Risks Associated with IFTTT Applets: A Preliminary User Study',")
         st.write("Proceedings of the Italian Conference on Cybersecurity (ITASEC2023), Bari, 2-5 May, 2023, to appear in CEUR Workshop Proceedings, pp. 1-12")
         
-    st.divider()
-
     col3, col4 = st.columns([1, 3])
     with col3:
         st.caption("[1]")
