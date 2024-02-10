@@ -9,7 +9,7 @@ import streamlit as st
 # PROFILE
 col1, col2 = st.columns([3, 2])
 with col1:
-    st.header("Hey there. 🦋")
+    st.header("Hey there.")
     st.header("I'm Annunziata Elefante!")
     st.write("I'm a programmer with a specialization in Data Science and Machine Learning, and Web Developer Freelancer")
     # st.write("Hi there 👋 My name is Annunziata Elefante, but my friends call me :black[Nunzia]. \n I'm a 25-year-old programmer with a specialization in Data Science and Machine Learning. \n\n")
