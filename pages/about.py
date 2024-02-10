@@ -38,7 +38,7 @@ with st.container():
     with cl2:
         st.subheader("MASTER'S DEGREE IN COMPUTER SCIENCE (LM-18)")
         st.write("University of Salerno \nTHESIS: 'Inference of Sensitive Information in Intelligent Environments through the Analysis of Trigger-Action Rules.' \nFINAL GRADE: 110/110 cum laude")
-st.divider()
+    st.divider()
     c1, c2 = st.columns([1, 3])
     with c1:
         st.captio(2021 - 2023)
