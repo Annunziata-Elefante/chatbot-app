@@ -1,6 +1,7 @@
 import streamlit as st
 # import requests
-# from streamlit_timeline import st_timeline
+from streamlit_timeline import timeline
+
 
 # ------------------------- PAGE CONFIGURATION -------------------------
 st.set_page_config(
@@ -86,9 +87,13 @@ with st.container():
 # Divider
 st.divider()
 
-# ------------------------- PROJECTS -------------------------
-st.markdown("<h2 style='text-align: center; color: black;'> PROJECTS </h2>", unsafe_allow_html=True)
-
+# ------------------------- WORK SNAPSHOT -------------------------
+st.markdown("<h2 style='text-align: center; color: black;'> WORK SNAPSHOT </h2>", unsafe_allow_html=True)
+  
+with st.spinner(text="Building line"):
+    with open('timeline.json', "r") as f:
+        data = f.read()
+        timeline(data, height=500)
 
 # ------------------------- CONTACT ME -------------------------
 # st.markdown("<h2 style='text-align: center; color: black;'> CONTACT ME </h2>", unsafe_allow_html=True)
