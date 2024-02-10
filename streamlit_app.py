@@ -36,13 +36,16 @@ with st.sidebar:
 # ------------------------- PROFILE -------------------------
 with st.container():
     # Divide the container into 2 columns
-    col1, col2 = st.columns([1, 3])
-    with col1:
-        st.image('images/photo_profile.webp')                # caption='Annunziata Elefante'   
-    with col2:
-        st.header("Hey there. 🦋")
-        st.header("I'm Annunziata Elefante!")
-        st.write("I'm a programmer specializing in Data Science and Machine Learning, as well as a freelance Web Developer.")
+    # col1, col2 = st.columns([1, 3])
+    # with col1:
+    #     st.image('images/photo_profile.webp')                # caption='Annunziata Elefante'   
+    # with col2:
+    #     st.header("Hey there. 🦋")
+    #     st.header("I'm Annunziata Elefante!")
+    #     st.write("I'm a programmer specializing in Data Science and Machine Learning, as well as a freelance Web Developer.")
+    st.header("Hey there. 🦋")
+    st.header("I'm Annunziata Elefante!")
+    st.write("I'm a programmer specializing in Data Science and Machine Learning, as well as a freelance Web Developer.")
 
 # ------------------------- SKILLS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> SKILLS </h2>", unsafe_allow_html=True)
