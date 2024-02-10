@@ -114,5 +114,18 @@ with c2:
 with c3:
     st.info('**Instagram**: [@__nunzia______](https://www.instagram.com/__nunzia______/)', icon="📸")
 
+# Divider
+st.divider()
+
+# ------------------------- CONTACT ME -------------------------
+st.markdown("<h2 style='text-align: center; color: black;'> CONTACT ME </h2>", unsafe_allow_html=True)
+c1, c2, c3 = st.columns(3)
+with c1:
+    st.write()
+with c2:
+    st.info('**E-mail**: [nunziaelefante@mail.com]', icon="📨")
+with c3:
+    st.write()
+
 # draw celebratory balloons.
 # st.balloons()
