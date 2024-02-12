@@ -57,7 +57,7 @@ with st.container():
     with c2:
         st.write("BACHELOR'S DEGREE IN COMPUTER SCIENCE (L-31)")
         st.write("_University of Salerno_")        
-        st.caption("THESIS: '_Inference of Sensitive Information in Intelligent Environments through the Analysis of Trigger-Action Rules._'")
+        st.caption("THESIS: '_Development of front-end services for the EcoGrowth application._'")
         st.caption("FINAL GRADE: 110/110 cum laude")
 
 st.divider()
@@ -77,27 +77,37 @@ st.divider()
 
 # ------------------------- RESEARCH PAPERS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> RESEARCH PAPERS 📑 </h2>", unsafe_allow_html=True)
-# with st.container():
-#     cl1, cl2 = st.columns([1, 3])
-#     with cl1:
-#         st.caption("[4]")
-#     with cl2:
-#         st.write("B. Breve, G. Cimino, V. Deufemia, A. Elefante, '_Unleashing the Power of NLP Models for Semantic Consistency Checking of Automation Rules_', \nProceedings of the Journal of Visual Language and Computing (JVLC) Vol. 2023 No.2, December 2023, pp.1-14")
+with st.container():
+    cl1, cl2 = st.columns([1, 3])
+    with cl1:
+        st.caption("[4]")
+    with cl2:
+        st.write("B. Breve, G. Cimino, V. Deufemia, A. Elefante, '_Unleashing the Power of NLP Models for Semantic Consistency Checking of Automation Rules_'") 
+        st.caption("Proceedings of the Journal of Visual Language and Computing (JVLC) Vol. 2023 No.2, December 2023, pp.1-14")
+
+    st.markdown("<p style='text-align: center; color: black;'> 󠀾 </p>", unsafe_allow_html=True)
             
-#     c1, c2 = st.columns([1, 3])
-#     with c1:
-#         st.caption("[3]")
-#     with c2:
-#         st.write("B. Breve, G. Cimino, V. Deufemia, A. Elefante, '_A BERT-based Model for Semantic Consistency Checking of Automation Rules_', Proceedings of 29th International DMS Conference on Visualization and Visual Languages (DMSVIVA 2023), San Francisco, 29-30 June, 2023, pp. 87-93, ISSN: 2326-3261")
+    c1, c2 = st.columns([1, 3])
+    with c1:
+        st.caption("[3]")
+    with c2:
+        st.write("B. Breve, G. Cimino, V. Deufemia, A. Elefante, '_A BERT-based Model for Semantic Consistency Checking of Automation Rules_'")
+        st.caption("Proceedings of 29th International DMS Conference on Visualization and Visual Languages (DMSVIVA 2023), San Francisco, 29-30 June, 2023, pp. 87-93, ISSN: 2326-3261")
+
+    st.markdown("<p style='text-align: center; color: black;'> 󠀾 </p>", unsafe_allow_html=True)
     
-#     col1, col2 = st.columns([1, 3])
-#     with col1:
-#         st.caption("[2]")
-#     with col2:
-#         st.write("B. Breve, G. Cimino, V. Deufemia, A. Elefante, '_User Perception of Risks Associated with IFTTT Applets: A Preliminary User Study_', Proceedings of the Italian Conference on Cybersecurity (ITASEC2023), Bari, 2-5 May, 2023, to appear in CEUR Workshop Proceedings, pp. 1-12")
-        
-#     col3, col4 = st.columns([1, 3])
-#     with col3:
-#         st.caption("[1]")
-#     with col4:
-#         st.write("B. Breve, G. Cimino, G. Desolda, V. Deufemia, A. Elefante, '_On the User Perception of Security Risks of Trigger-Action Rules: A User Study_', Proceedings of the 9th International Symposium on End-User Development (IS-EUD 2023). Cagliari, 6-8 June, 2023, Lecture Notes in Computer Science (LNCS) 13917, 2023, Lucio Davide Spano et al. (Eds.), pp. 162–179, Springer-Verlag")
+    col1, col2 = st.columns([1, 3])
+    with col1:
+        st.caption("[2]")
+    with col2:
+        st.write("B. Breve, G. Cimino, V. Deufemia, A. Elefante, '_User Perception of Risks Associated with IFTTT Applets: A Preliminary User Study_'")
+        st.caption("Proceedings of the Italian Conference on Cybersecurity (ITASEC2023), Bari, 2-5 May, 2023, to appear in CEUR Workshop Proceedings, pp. 1-12")
+
+    st.markdown("<p style='text-align: center; color: black;'> 󠀾 </p>", unsafe_allow_html=True)
+    
+    col3, col4 = st.columns([1, 3])
+    with col3:
+        st.caption("[1]")
+    with col4:
+        st.write("B. Breve, G. Cimino, G. Desolda, V. Deufemia, A. Elefante, '_On the User Perception of Security Risks of Trigger-Action Rules: A User Study_'")
+        st.caption("Proceedings of the 9th International Symposium on End-User Development (IS-EUD 2023). Cagliari, 6-8 June, 2023, Lecture Notes in Computer Science (LNCS) 13917, 2023, Lucio Davide Spano et al. (Eds.), pp. 162–179, Springer-Verlag")
