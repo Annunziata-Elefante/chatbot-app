@@ -45,7 +45,9 @@ with st.container():
         st.caption("2021 - 2023")
     with cl2:
         st.write("MASTER'S DEGREE IN COMPUTER SCIENCE (LM-18)")
-        st.write("_University of Salerno_ \nTHESIS: '_Inference of Sensitive Information in Intelligent Environments through the Analysis of Trigger-Action Rules._' \nFINAL GRADE: 110/110 cum laude")
+        st.write("_University of Salerno_")
+        st.caption("THESIS: '_Inference of Sensitive Information in Intelligent Environments through the Analysis of Trigger-Action Rules._' ")
+        st.caption("FINAL GRADE: 110/110 cum laude")
         
     st.markdown("<p style='text-align: center; color: black;'> 󠀾 </p>", unsafe_allow_html=True)
     
@@ -54,7 +56,9 @@ with st.container():
         st.caption("2017 - 2021")
     with c2:
         st.write("BACHELOR'S DEGREE IN COMPUTER SCIENCE (L-31)")
-        st.write("_University of Salerno_ \nTHESIS: '_Inference of Sensitive Information in Intelligent Environments through the Analysis of Trigger-Action Rules._' \nFINAL GRADE: 110/110 cum laude")        
+        st.write("_University of Salerno_")        
+        st.caption("THESIS: '_Inference of Sensitive Information in Intelligent Environments through the Analysis of Trigger-Action Rules._'")
+        st.caption("FINAL GRADE: 110/110 cum laude")
 
 st.divider()
 
