@@ -17,7 +17,6 @@ with st.sidebar:
     st.divider()
     st.download_button('📝 Download Resume', pdfFileObj, file_name='annunziata_elefante_resume.pdf',mime='pdf')
 
-
 # ------------------------- ABOUT ME -------------------------
 # st.markdown("<h2 style='text-align: center; color: black;'> ABOUT ME 🌼 </h2>", unsafe_allow_html=True)
 with st.container():
@@ -47,6 +46,8 @@ with st.container():
     with cl2:
         st.write("MASTER'S DEGREE IN COMPUTER SCIENCE (LM-18)")
         st.write("_University of Salerno_")
+        
+    st.markdown("<p style='text-align: center; color: black;'> ________________ </p>", unsafe_allow_html=True)
     
     c1, c2 = st.columns([1, 3])
     with c1:
@@ -54,6 +55,8 @@ with st.container():
     with c2:
         st.write("BACHELOR'S DEGREE IN COMPUTER SCIENCE (L-31)")
         st.write("_University of Salerno_")        
+
+st.divider()
 
 # ------------------------- LANGUAGE SKILLS -------------------------
 st.markdown("<h2 style='text-align: center; color: black;'> LANGUAGE SKILLS 💬 </h2>", unsafe_allow_html=True)
