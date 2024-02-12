@@ -45,7 +45,7 @@ with st.container():
         st.caption("2021 - 2023")
     with cl2:
         st.write("MASTER'S DEGREE IN COMPUTER SCIENCE (LM-18)")
-        st.write("_University of Salerno_")
+        st.write("_University of Salerno_ \nTHESIS: '_Inference of Sensitive Information in Intelligent Environments through the Analysis of Trigger-Action Rules._' \nFINAL GRADE: 110/110 cum laude")
         
     st.markdown("<p style='text-align: center; color: black;'> 󠀾 </p>", unsafe_allow_html=True)
     
