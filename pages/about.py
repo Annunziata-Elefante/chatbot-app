@@ -27,13 +27,13 @@ with st.container():
     # with col2:
     #     st.write("I'm Nunzia!. \nI'm 25 years-old and I'm a front-end developer based in Italy. I'm specialized in Data Science & Machine Learning🤖 and during this peroid I'm workis as a Web Developer Freelancer.\n <ypu should also know that I'm also a passionate and creative girl who loves spending time with loved ones and cats😸.\nI'm always availble for a chat ot coffee☕")
     # Divide the container into 2 columns
-    col1, col2 = st.columns([1, 3])
-    with col1:
-        st.image('images/memoji.webp')                # caption='Annunziata Elefante'   
-    with col2:
-        st.header("I'm Nunzia!")
-        st.write("I'm 25 years-old and I'm a front-end developer based in Italy. I'm specialized in Data Science & Machine Learning🤖 and during this peroid I'm workis as a Web Developer Freelancer💻.")
-        st.write("You should also know that I'm also a passionate and creative girl who loves spending time with loved ones❤️ and cats😸.\nI'm always availble for a chat ot coffee☕")
+    # col1, col2 = st.columns([1, 3])
+    # with col1:
+    #     st.image('images/memoji.webp')                # caption='Annunziata Elefante'   
+    # with col2:
+    st.header("I'm Nunzia!")
+    st.write("I'm 25 years-old and I'm a front-end developer based in Italy. I'm specialized in Data Science & Machine Learning🤖 and during this peroid I'm working as a Web Developer Freelancer💻.")
+    st.write("You should also know that I'm a passionate and creative girl who loves spending time with loved ones❤️ and cats😸. I'm always available for a chat or coffee☕")
 
 st.divider()
 
@@ -72,6 +72,26 @@ with st.container():
     with col2:
         st.markdown("<h2 style='text-align: center; color: black;'> 💂 </h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: black;'> English Level C1 - LanguageCert Level 2 Certificate in ESOL International </p>", unsafe_allow_html=True)
+
+st.divider()
+
+# ------------------------- SOFT SKILLS -------------------------
+st.markdown("<h2 style='text-align: center; color: black;'> SOFT SKILLS 🚀 </h2>", unsafe_allow_html=True)
+with st.container():
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.markdown("<h2 style='text-align: center; color: black;'> 🤝 </h2>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> Teamwork </p>", unsafe_allow_html=True)
+    with col2:
+        st.markdown("<h2 style='text-align: center; color: black;'> 📢 </h2>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> Effective communication </p>", unsafe_allow_html=True)
+    with col3:
+        st.markdown("<h2 style='text-align: center; color: black;'> 🤹 </h2>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> Adaptability </p>", unsafe_allow_html=True)
+    with col4:
+        st.markdown("<h2 style='text-align: center; color: black;'> 💡 </h2>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> Problem Solving </p>", unsafe_allow_html=True)
+
 
 st.divider()
 
