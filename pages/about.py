@@ -78,7 +78,7 @@ with st.container():
     with cl1:
         st.caption("[4]")
     with cl2:
-        # st.write("B. Breve, G. Cimino, V. Deufemia, A. Elefante, '_Unleashing the Power of NLP Models for Semantic Consistency Checking of Automation Rules_', \nProceedings of the Journal of Visual Language and Computing (JVLC) Vol. 2023 No.2, December 2023, pp.1-14")
+        st.write("B. Breve, G. Cimino, V. Deufemia, A. Elefante, '_Unleashing the Power of NLP Models for Semantic Consistency Checking of Automation Rules_', \nProceedings of the Journal of Visual Language and Computing (JVLC) Vol. 2023 No.2, December 2023, pp.1-14")
             
     c1, c2 = st.columns([1, 3])
     with c1:
