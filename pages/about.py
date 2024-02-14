@@ -1,5 +1,14 @@
 import streamlit as st
 
+
+# ------------------------- PAGE CONFIGURATION -------------------------
+st.set_page_config(
+    page_title="Annunziata Elefante - About Me",
+    page_icon="🦋",
+    layout="wide",
+    # initial_sidebar_state="expanded",
+)
+
 # open pdf
 pdfFileObj = open('images/resume.pdf', 'rb')
 
