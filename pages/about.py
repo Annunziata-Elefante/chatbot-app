@@ -72,7 +72,7 @@ with st.container():
     with col2:
         st.markdown("<h2 style='text-align: center; color: black;'> 💂 </h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: black;'> English Level C1 </p>", unsafe_allow_html=True)
-        st.markdown("<caption style='text-align: center; color: black;'> LanguageCert Level 2 Certificate in ESOL International </caption>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: gray;'> LanguageCert Level 2 Certificate in ESOL International </p>", unsafe_allow_html=True)
 
 
 st.divider()
