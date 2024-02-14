@@ -92,7 +92,6 @@ with st.container():
         st.markdown("<h2 style='text-align: center; color: black;'> 💡 </h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: black;'> Problem Solving </p>", unsafe_allow_html=True)
 
-
 st.divider()
 
 # ------------------------- RESEARCH PAPERS -------------------------
@@ -131,3 +130,15 @@ with st.container():
     with col4:
         st.write("B. Breve, G. Cimino, G. Desolda, V. Deufemia, A. Elefante, '_On the User Perception of Security Risks of Trigger-Action Rules: A User Study_'")
         st.caption("Proceedings of the 9th International Symposium on End-User Development (IS-EUD 2023). Cagliari, 6-8 June, 2023, Lecture Notes in Computer Science (LNCS) 13917, 2023, Lucio Davide Spano et al. (Eds.), pp. 162–179, Springer-Verlag")
+
+st.divider()
+
+# ------------------------- CONTACT ME -------------------------
+st.markdown("<h2 style='text-align: center; color: black;'> CONTACT ME </h2>", unsafe_allow_html=True)
+c1, c2, c3 = st.columns(3)
+with c1:
+    st.write()
+with c2:
+    st.info('**E-mail**: nunziaelefante@mail.com', icon="📨")
+with c3:
+    st.write()
