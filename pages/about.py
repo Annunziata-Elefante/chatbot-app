@@ -71,7 +71,9 @@ with st.container():
         st.markdown("<p style='text-align: center; color: black;'> Italian - Native language </p>", unsafe_allow_html=True)
     with col2:
         st.markdown("<h2 style='text-align: center; color: black;'> 💂 </h2>", unsafe_allow_html=True)
-        st.markdown("<p style='text-align: center; color: black;'> English Level C1 - LanguageCert Level 2 Certificate in ESOL International </p>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> English Level C1 </p>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: center; color: black;'> LanguageCert Level 2 Certificate in ESOL International </p>", unsafe_allow_html=True)
+
 
 st.divider()
 
