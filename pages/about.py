@@ -41,8 +41,8 @@ with st.container():
     #     st.image('images/memoji.webp')                # caption='Annunziata Elefante'   
     # with col2:
     st.header("I'm Nunzia!")
-    st.write("I'm 25 years-old and I'm a front-end developer based in Italy. I'm specialized in Data Science & Machine Learning🤖 and during this peroid I'm working as a Web Developer Freelancer💻.")
-    st.write("You should also know that I'm a passionate and creative girl who loves spending time with loved ones❤️ and cats😸. I'm always available for a chat or coffee☕")
+    st.write("I'm a 25-year-old front-end developer based in Italy, specializing in Data Science & Machine Learning 🤖. Currently, I'm working as a Freelance Web Developer💻.")
+    st.write("Beyond my professional pursuits, I'm a passionate and creative person who cherishes spending time with loved ones❤️ and cats😸. I'm always available for a chat or a coffee☕.")
 
 st.divider()
 
