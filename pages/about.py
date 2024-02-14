@@ -46,8 +46,8 @@ with st.container():
     with cl2:
         st.write("MASTER'S DEGREE IN COMPUTER SCIENCE (LM-18)")
         st.write("_University of Salerno_")
-        st.caption("THESIS: '_Inference of Sensitive Information in Intelligent Environments through the Analysis of Trigger-Action Rules._' ")
-        st.caption("FINAL GRADE: 110/110 cum laude")
+        st.write("THESIS: '_Inference of Sensitive Information in Intelligent Environments through the Analysis of Trigger-Action Rules._' ")
+        st.write("FINAL GRADE: 110/110 cum laude")
         
     st.markdown("<p style='text-align: center; color: black;'> 󠀾 </p>", unsafe_allow_html=True)
     
@@ -57,8 +57,8 @@ with st.container():
     with c2:
         st.write("BACHELOR'S DEGREE IN COMPUTER SCIENCE (L-31)")
         st.write("_University of Salerno_")        
-        st.caption("THESIS: '_Development of front-end services for the EcoGrowth application._'")
-        st.caption("FINAL GRADE: 110/110 cum laude")
+        st.write("THESIS: '_Development of front-end services for the EcoGrowth application._'")
+        st.write("FINAL GRADE: 110/110 cum laude")
 
 st.divider()
 
