@@ -25,7 +25,7 @@ with st.sidebar:
         st.image('images/profile-modified.png')
     with col2:
         st.header("Annunziata Elefante")
-        st.caption("Front-End Developer")
+        st.caption("Data Scientist & Machine Learning Engineer | Web Developer Freelance")
     st.write("☰ MENU")
     st.page_link("streamlit_app.py", label="Home", icon="🏡")
     st.page_link("pages/about.py", label="About Me", icon="😸")
